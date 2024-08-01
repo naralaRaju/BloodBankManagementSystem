@@ -1,0 +1,29 @@
+﻿@model BBMS1.Models.Patients
+@{
+    ViewBag.Title = "Transfer";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Transfer Confirmation</h2>
+
+@using (Html.BeginForm("Transfer", "Login"))
+{
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    @Html.HiddenFor(m => m.Id)
+    <div class="mb-3">
+        @Html.LabelFor(m => m.Name)
+        @Html.TextBoxFor(m => m.Name, new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.Name)
+    </div>
+    <div class="mb-3">
+        @Html.LabelFor(m => m.BloodGroup)
+        @Html.TextBoxFor(m => m.BloodGroup, new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.BloodGroup)
+    </div>
+}
+@using (Html.BeginForm("Transfer", "BloodStock"))
+{
+    @Html.HiddenFor(m => m.Id)
+    <button type="submit" class="btn btn-primary"> Transfer </button>
+}
+    @Html.ActionLink("Cancel", "Patients", "Login")

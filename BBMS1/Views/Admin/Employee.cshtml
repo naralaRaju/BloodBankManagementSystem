@@ -1,0 +1,100 @@
+﻿@model List<BBMS1.Models.UserModel1>
+@{
+    ViewBag.Title = "Employee";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+    body {
+        font-family: Arial,sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f0f0f0;
+    }
+
+    table {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    th, td {
+        padding: 10px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+    }
+
+    th {
+        background-color: chartreuse;
+        color: black;
+    }
+
+    tr:hover {
+        background-color: #f5f5f5;
+    }
+
+    .search-box {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+
+        .search-box input[type="text"],
+        .search-box input[type="submit"] {
+            padding: 5px;
+            margin-right: 5px;
+        }
+</style>
+<h2>Employees Data</h2>
+<div class="search-box">
+    <form id="search-box" action="@Url.Action("Search","Admin")" methode="post">
+        <input type="text" id="serchTerm" name="searchTerm" placeholder="search by name" />
+        <input type="submit" value="Search" />
+    </form>
+</div>
+
+@if (Model != null && Model.Count > 0)
+{
+    <table class="table">
+        <tr>
+            <th>Emp Name</th>
+            <th>Password</th>
+            <th>Phone Number</th>
+            <th>Email</th>
+        </tr>
+        @foreach (var user in Model)
+        {
+            <tr>
+                <td>@user.UserName</td>
+                <td>@user.Password</td>
+                <td>@user.Phone</td>
+                <td>@user.Email</td>
+                <td>
+                    <div style="display: flex;">
+                        @using (Html.BeginForm("EditUser", "Admin", new { id = user.Id }, FormMethod.Post))
+                        {
+                            @Html.HiddenFor(m => user.Id)
+                            <button type="submit" class="btn btn-primary" style="margin-right: 10px;">Edit</button>
+                        }
+                        @using (Html.BeginForm("DeleteUser", "Admin", new { id = user.Id }, FormMethod.Post))
+                        {
+                            @Html.HiddenFor(m => user.Id)
+                            <button type="submit" class="btn btn-danger">Delete</button>
+                        }
+                    </div>
+                    @*@Html.ActionLink("Edit", "EditUser", new { id = user.Id })
+                        @Html.ActionLink("Delete", "DeleteUser", new { id = user.Id })*@
+                </td>
+            </tr>
+        }
+    </table>
+}
+else
+{
+    <p> No users Available </p>
+}
+@Html.ActionLink("Back", "AdminDashboard", "Admin")
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success" role="alert">
+        @TempData["SuccessMessage"]
+    </div>
+}

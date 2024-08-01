@@ -1,0 +1,48 @@
+﻿@model BBMS1.Models.AdminLogin
+@{
+    ViewBag.Title = "AdminDashboard";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+    body {
+        font-family: Arial,sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f0f0f0;
+    }
+
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    nav {
+        background-color: #444;
+        color: #fff;
+        padding: 10px;
+        margin-top: 20px;
+        border-radius: 5px;
+    }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+            nav ul li {
+                margin-bottom: 10px;
+            }
+</style>
+<h2>AdminDashboard</h2>
+<div class="container">
+    <nav>
+        <ul>
+            <li>@Html.ActionLink("Add Employees", "NewUser")</li>
+            <li>@Html.ActionLink("Employees", "Employee")</li>
+            <li>@Html.ActionLink("Dash Board", "Dashboard")</li>
+            <li>@Html.ActionLink("Logout", "Admin", "Admin")</li>
+        </ul>
+    </nav>
+</div>

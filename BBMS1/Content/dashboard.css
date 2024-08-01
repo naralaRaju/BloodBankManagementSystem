@@ -1,0 +1,12 @@
+﻿.dashboard-container{
+    margin:20px;
+}
+.count-container {
+    margin-bottom: 10px;
+}
+.count-label {
+    font-weight:bold;
+}
+.count-number {
+    font-size:24px;
+}

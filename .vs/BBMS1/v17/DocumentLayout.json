@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\2321983\\Projects\\bbms1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{586CBE49-9021-467F-ABDC-6D5C5A45AC83}|BBMS1\\BBMS1.csproj|c:\\users\\2321983\\projects\\bbms1\\bbms1\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{586CBE49-9021-467F-ABDC-6D5C5A45AC83}|BBMS1\\BBMS1.csproj|solutionrelative:bbms1\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{586CBE49-9021-467F-ABDC-6D5C5A45AC83}|BBMS1\\BBMS1.csproj|c:\\users\\2321983\\projects\\bbms1\\bbms1\\controllers\\managecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{586CBE49-9021-467F-ABDC-6D5C5A45AC83}|BBMS1\\BBMS1.csproj|solutionrelative:bbms1\\controllers\\managecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{586CBE49-9021-467F-ABDC-6D5C5A45AC83}|BBMS1\\BBMS1.csproj|c:\\users\\2321983\\projects\\bbms1\\bbms1\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{586CBE49-9021-467F-ABDC-6D5C5A45AC83}|BBMS1\\BBMS1.csproj|solutionrelative:bbms1\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{586CBE49-9021-467F-ABDC-6D5C5A45AC83}|BBMS1\\BBMS1.csproj|c:\\users\\2321983\\projects\\bbms1\\bbms1\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{586CBE49-9021-467F-ABDC-6D5C5A45AC83}|BBMS1\\BBMS1.csproj|solutionrelative:bbms1\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{586CBE49-9021-467F-ABDC-6D5C5A45AC83}|BBMS1\\BBMS1.csproj|c:\\users\\2321983\\projects\\bbms1\\bbms1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{586CBE49-9021-467F-ABDC-6D5C5A45AC83}|BBMS1\\BBMS1.csproj|solutionrelative:bbms1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\2321983\\Projects\\bbms1\\BBMS1\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "BBMS1\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\2321983\\Projects\\bbms1\\BBMS1\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "BBMS1\\Controllers\\AdminController.cs",
+              "ViewState": "AQIAADcAAAAAAAAAAAAWwEUAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T18:06:16.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ManageController.cs",
+              "DocumentMoniker": "C:\\Users\\2321983\\Projects\\bbms1\\BBMS1\\Controllers\\ManageController.cs",
+              "RelativeDocumentMoniker": "BBMS1\\Controllers\\ManageController.cs",
+              "ToolTip": "C:\\Users\\2321983\\Projects\\bbms1\\BBMS1\\Controllers\\ManageController.cs",
+              "RelativeToolTip": "BBMS1\\Controllers\\ManageController.cs",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAowAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T18:06:04.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\2321983\\Projects\\bbms1\\BBMS1\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "BBMS1\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\2321983\\Projects\\bbms1\\BBMS1\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "BBMS1\\Controllers\\LoginController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAANIAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T18:04:46.523Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\2321983\\Projects\\bbms1\\BBMS1\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "BBMS1\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\2321983\\Projects\\bbms1\\BBMS1\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "BBMS1\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAAFwAAAAAAAAAAAAswAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T18:04:33.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\2321983\\Projects\\bbms1\\BBMS1\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "BBMS1\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\2321983\\Projects\\bbms1\\BBMS1\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "BBMS1\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T18:04:26.623Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

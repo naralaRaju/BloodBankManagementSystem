@@ -1,0 +1,93 @@
+﻿@model List<BBMS1.Models.Patients>
+@{
+    ViewBag.Title = "Patients";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+    body {
+        font-family: Arial,sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f0f0f0;
+    }
+
+    table {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    th, td {
+        padding: 10px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+    }
+
+    th {
+        background-color: chartreuse;
+        color: black;
+    }
+
+    tr:hover {
+        background-color: #f5f5f5;
+    }
+</style>
+<h2>Patients Data</h2>
+@if (Model != null && Model.Count > 0)
+{
+    <table class="table">
+        <tr>
+            <th> Name</th>
+            <th> Age</th>
+            <th>Gender</th>
+            <th>Phone Number</th>
+            <th>Blood Group</th>
+            <th>Address</th>
+        </tr>
+        @foreach (var user in Model)
+        {
+            <tr>
+                <td>@user.Name</td>
+                <td>@user.Age</td>
+                <td>@user.Gender</td>
+                <td>@user.PhoneNo </td>
+                <td>@user.BloodGroup</td>
+                <td>@user.Address</td>
+                <td>
+                    <div style="display: flex;">
+                        @using (Html.BeginForm("EditPatient", "Login", new { id = user.Id }, FormMethod.Post))
+                        {
+                            @Html.HiddenFor(m => user.Id)
+                            <button type="submit" class="btn btn-primary"style="margin-right: 10px;">Edit</button>
+                        }
+                        @using (Html.BeginForm("DeletePatient", "Login", new { id = user.Id }, FormMethod.Post))
+                        {
+                            @Html.HiddenFor(m => user.Id)
+                            <button type="submit" class="btn btn-danger"style="margin-right: 10px;">Delete</button>
+                        }
+                        @using (Html.BeginForm("Transfer", "Login", new { id = user.Id }, FormMethod.Post))
+                        {
+                            @Html.HiddenFor(m => user.Id)
+                            <button type="submit" class="btn btn-success">Transfer</button>
+                        }
+                        </div>
+
+                        @*@Html.ActionLink("Edit", "EditPatient", new { id = user.Id })*@
+                        @*@Html.ActionLink("Delete", "DeletePatient", new { id = user.Id })
+            @Html.ActionLink("Transfer", "Transfer", new { id = user.Id })*@
+                </td>
+            </tr>
+        }
+    </table>
+}
+else
+{
+    <p> No users Available </p>
+}
+@Html.ActionLink("Back", "UserDashboard", "Login")
+@if (TempData["SuccessMessage"] != null) 
+ { 
+        <div class="alert alert-success" role="alert">
+            @TempData["SuccessMessage"]
+        </div>
+  }
+

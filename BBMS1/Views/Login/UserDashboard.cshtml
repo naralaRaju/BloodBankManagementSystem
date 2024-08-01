@@ -1,0 +1,48 @@
+﻿@model BBMS1.Models.Donors
+@{
+    ViewBag.Title = "userDashboard";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    body{
+        font-family:Arial,sans-serif;
+        margin:0;
+        padding:0;
+        background-color:#f0f0f0;
+    }
+    .container{
+        max-width:1200px;
+        margin:0 auto;
+        padding:20px;
+    }
+    nav{
+        background-color:#444;
+        color:#fff;
+        padding:10px;
+        margin-top:20px;
+        border-radius:5px;
+    }
+    nav ul{
+        list-style-type:none;
+        padding:0;
+        margin:0;
+       
+    }
+    nav ul li{
+        margin-bottom:10px;
+    }
+</style>
+<h2>Employee Dashboard</h2>
+<div class="container">
+    <nav>
+    <ul>
+        <li>@Html.ActionLink("Donor", "Donor")</li>
+        <li>@Html.ActionLink("Donor Details", "Donors")</li>
+        <li>@Html.ActionLink("Patient", "Patient")</li>
+        <li>@Html.ActionLink("Patient Details", "Patients")</li>
+        <li>@Html.ActionLink("BloodStock", "BloodStock","BloodStock")
+        <li>@Html.ActionLink("Logout", "Login", "Login")</li>
+    </ul>
+     </nav>
+</div>

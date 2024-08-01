@@ -1,0 +1,54 @@
+﻿@model BBMS1.ViewModel.DashboardViewModel
+@{
+    ViewBag.Title = "Dashboard";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    body{
+        font-family:Arial,sans-serif;
+        margin:0;
+        padding:0;
+        background-color:#f0f0f0;
+    }
+    .dashboard-container{
+        max-width:1200px;
+        margin:0 auto;
+        padding:20px;
+    }
+    .count-number{
+        font-size:24px;
+        font-weight:bold;
+    }
+    .count-container{
+        background-color:#fff;
+        padding:20px;
+        margin-top:20px;
+        border-radius:5px;
+        
+    }
+
+</style>
+<div class="dashboard-container">
+    <h2>Dashboard</h2>
+    <div class="count-container">
+        <span class="count-label">Patients</span>
+
+
+        <span class="count-number">@Model.PatientCount</span>
+    </div>
+    <div class="count-container">
+        <span class="count-label">Donors</span>
+
+
+        <span class="count-number">@Model.DonorCount</span>
+    </div>
+    <div class="count-container">
+        <span class="count-label">Employees          </span>
+
+
+        <span class="count-number">@Model.EmployeeCount</span>
+    </div>
+</div>
+@Html.ActionLink("Back", "AdminDashboard", "Admin")
+

@@ -1,0 +1,29 @@
+﻿@model BBMS1.Models.Donors
+@{
+    ViewBag.Title = "Donation";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Donation Confirmation</h2>
+
+@using (Html.BeginForm("Donate", "Login"))
+{
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    @Html.HiddenFor(m => m.Id)
+    <div class="mb-3">
+        @Html.LabelFor(m => m.Name)
+        @Html.TextBoxFor(m => m.Name, new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.Name)
+    </div>
+    <div class="mb-3">
+        @Html.LabelFor(m => m.BloodGroup)
+        @Html.TextBoxFor(m => m.BloodGroup, new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.BloodGroup)
+    </div>
+}
+    @using (Html.BeginForm("Donate", "BloodStock"))
+    {
+        @Html.HiddenFor(m => m.Id)
+        <button type="submit" class="btn btn-danger">Donate</button>
+    }
+    @Html.ActionLink("Cancel", "Donors", "Login")

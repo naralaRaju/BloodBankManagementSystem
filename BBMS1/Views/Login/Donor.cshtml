@@ -1,0 +1,42 @@
+﻿@model BBMS1.Models.Donors
+@{
+    ViewBag.Title = "Donor";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h2>New Donor</h2>
+@using (Html.BeginForm("Save", "Login"))
+{
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    <div class="mb-3">
+        @Html.LabelFor(m => m.Name)
+        @Html.TextBoxFor(m => m.Name, new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.Name)
+    </div>
+    <div class="mb-3">
+        @Html.LabelFor(m => m.Age)
+        @Html.TextBoxFor(m => m.Age, new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.Age)
+    </div>
+    <div class="mb-3">
+        @Html.LabelFor(m => m.Gender)
+        @Html.TextBoxFor(m => m.Gender, new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.Gender)
+    </div>
+    <div class="mb-3">
+        @Html.LabelFor(m => m.Phone)
+        @Html.TextBoxFor(m => m.Phone, new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.Phone)
+    </div>
+    <div class="mb-3">
+        @Html.LabelFor(m => m.BloodGroup)
+        @Html.TextBoxFor(m => m.BloodGroup, new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.BloodGroup)
+    </div>
+    <div class="mb-3">
+        @Html.LabelFor(m => m.Address)
+        @Html.TextBoxFor(m => m.Address, new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.Address)
+    </div>
+    <button type="submit">Save</button>
+    @Html.ActionLink("Back", "UserDashboard", "Login")
+}
