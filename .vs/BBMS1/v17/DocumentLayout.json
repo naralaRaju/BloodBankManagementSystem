@@ -3,24 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\2321983\\Projects\\bbms1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{586CBE49-9021-467F-ABDC-6D5C5A45AC83}|BBMS1\\BBMS1.csproj|c:\\users\\2321983\\projects\\bbms1\\bbms1\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{586CBE49-9021-467F-ABDC-6D5C5A45AC83}|BBMS1\\BBMS1.csproj|solutionrelative:bbms1\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2321983\\Projects\\bbms1\\BBMS1\\Web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BBMS1\\Web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{586CBE49-9021-467F-ABDC-6D5C5A45AC83}|BBMS1\\BBMS1.csproj|c:\\users\\2321983\\projects\\bbms1\\bbms1\\controllers\\managecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{586CBE49-9021-467F-ABDC-6D5C5A45AC83}|BBMS1\\BBMS1.csproj|solutionrelative:bbms1\\controllers\\managecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2321983\\Projects\\bbms1\\BBMS1\\Startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BBMS1\\Startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{586CBE49-9021-467F-ABDC-6D5C5A45AC83}|BBMS1\\BBMS1.csproj|c:\\users\\2321983\\projects\\bbms1\\bbms1\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{586CBE49-9021-467F-ABDC-6D5C5A45AC83}|BBMS1\\BBMS1.csproj|solutionrelative:bbms1\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2321983\\Projects\\bbms1\\BBMS1\\Controllers\\AdminController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BBMS1\\Controllers\\AdminController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{586CBE49-9021-467F-ABDC-6D5C5A45AC83}|BBMS1\\BBMS1.csproj|c:\\users\\2321983\\projects\\bbms1\\bbms1\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{586CBE49-9021-467F-ABDC-6D5C5A45AC83}|BBMS1\\BBMS1.csproj|solutionrelative:bbms1\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2321983\\Projects\\bbms1\\BBMS1\\Controllers\\ManageController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BBMS1\\Controllers\\ManageController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{586CBE49-9021-467F-ABDC-6D5C5A45AC83}|BBMS1\\BBMS1.csproj|c:\\users\\2321983\\projects\\bbms1\\bbms1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{586CBE49-9021-467F-ABDC-6D5C5A45AC83}|BBMS1\\BBMS1.csproj|solutionrelative:bbms1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2321983\\Projects\\bbms1\\BBMS1\\Controllers\\LoginController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BBMS1\\Controllers\\LoginController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2321983\\Projects\\bbms1\\BBMS1\\Views\\Admin\\Admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BBMS1\\Views\\Admin\\Admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2321983\\Projects\\bbms1\\BBMS1\\Controllers\\AccountController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BBMS1\\Controllers\\AccountController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2321983\\Projects\\bbms1\\BBMS1\\Controllers\\HomeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BBMS1\\Controllers\\HomeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,24 +42,52 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\2321983\\Projects\\bbms1\\BBMS1\\Startup.cs",
+              "RelativeDocumentMoniker": "BBMS1\\Startup.cs",
+              "ToolTip": "C:\\Users\\2321983\\Projects\\bbms1\\BBMS1\\Startup.cs",
+              "RelativeToolTip": "BBMS1\\Startup.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T05:05:38.543Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\2321983\\Projects\\bbms1\\BBMS1\\Web.config",
+              "RelativeDocumentMoniker": "BBMS1\\Web.config",
+              "ToolTip": "C:\\Users\\2321983\\Projects\\bbms1\\BBMS1\\Web.config",
+              "RelativeToolTip": "BBMS1\\Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-08-02T05:01:20.907Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "AdminController.cs",
               "DocumentMoniker": "C:\\Users\\2321983\\Projects\\bbms1\\BBMS1\\Controllers\\AdminController.cs",
               "RelativeDocumentMoniker": "BBMS1\\Controllers\\AdminController.cs",
               "ToolTip": "C:\\Users\\2321983\\Projects\\bbms1\\BBMS1\\Controllers\\AdminController.cs",
               "RelativeToolTip": "BBMS1\\Controllers\\AdminController.cs",
-              "ViewState": "AQIAADcAAAAAAAAAAAAWwEUAAAAMAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADwAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T18:06:16.159Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-01T18:06:16.159Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "ManageController.cs",
               "DocumentMoniker": "C:\\Users\\2321983\\Projects\\bbms1\\BBMS1\\Controllers\\ManageController.cs",
               "RelativeDocumentMoniker": "BBMS1\\Controllers\\ManageController.cs",
@@ -55,47 +95,55 @@
               "RelativeToolTip": "BBMS1\\Controllers\\ManageController.cs",
               "ViewState": "AQIAAEgAAAAAAAAAAAAowAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T18:06:04.476Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-01T18:06:04.476Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "LoginController.cs",
               "DocumentMoniker": "C:\\Users\\2321983\\Projects\\bbms1\\BBMS1\\Controllers\\LoginController.cs",
               "RelativeDocumentMoniker": "BBMS1\\Controllers\\LoginController.cs",
               "ToolTip": "C:\\Users\\2321983\\Projects\\bbms1\\BBMS1\\Controllers\\LoginController.cs",
               "RelativeToolTip": "BBMS1\\Controllers\\LoginController.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAANIAAAAsAAAA",
+              "ViewState": "AQIAABgAAAAAAAAAAAAEwCMAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T18:04:46.523Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-01T18:04:46.523Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
+              "Title": "Admin.cshtml",
+              "DocumentMoniker": "C:\\Users\\2321983\\Projects\\bbms1\\BBMS1\\Views\\Admin\\Admin.cshtml",
+              "RelativeDocumentMoniker": "BBMS1\\Views\\Admin\\Admin.cshtml",
+              "ToolTip": "C:\\Users\\2321983\\Projects\\bbms1\\BBMS1\\Views\\Admin\\Admin.cshtml",
+              "RelativeToolTip": "BBMS1\\Views\\Admin\\Admin.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAADIAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-12T10:19:42.42Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "AccountController.cs",
               "DocumentMoniker": "C:\\Users\\2321983\\Projects\\bbms1\\BBMS1\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "BBMS1\\Controllers\\AccountController.cs",
               "ToolTip": "C:\\Users\\2321983\\Projects\\bbms1\\BBMS1\\Controllers\\AccountController.cs",
               "RelativeToolTip": "BBMS1\\Controllers\\AccountController.cs",
-              "ViewState": "AQIAAFwAAAAAAAAAAAAswAAAAAAAAAAA",
+              "ViewState": "AQIAACAAAAAAAAAAAAAgwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T18:04:33.371Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-01T18:04:33.371Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\2321983\\Projects\\bbms1\\BBMS1\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "BBMS1\\Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\2321983\\Projects\\bbms1\\BBMS1\\Controllers\\HomeController.cs",
               "RelativeToolTip": "BBMS1\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAA1wAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T18:04:26.623Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-01T18:04:26.623Z"
             }
           ]
         }
